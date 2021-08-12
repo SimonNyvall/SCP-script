@@ -1,9 +1,9 @@
 # Variables
-$send_folder_path = "/home/simon/Desktop/Server-file-transfer"
+$send_folder_path = "path ot the folder on host A"
 $files = Get-ChildItem $send_folder_path
-$username = "ubuntu"
-$ip_address = "192.168.1.229"
-$destination = "/home/ubuntu/NAS/ssh-file-transfer-folder/"
+$username = "user"
+$ip_address = "ip"
+$destination = "Path to the folder on host B"
 function main {
 
     # Command To transfer files
